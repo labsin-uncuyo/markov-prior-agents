@@ -1,0 +1,66 @@
+prompts:
+  INSTRUCTIONS_TEMPLATE: |
+    You are a pentester and your goal is to {{goal}}.
+    The actions you can take are ScanServices, FindData, ScanNetwork, ExploitService, and ExfiltrateData. 
+
+    The rules are:
+    1. You can only scan networks in your list of known networks.
+    2. You can only scan services in hosts you know.
+    3. You can only exploit services when you know the service and host.
+    4. You can find data in hosts you control.
+    5. You can exfiltrate known data to and from controlled hosts.
+
+    Do not repeat actions that you took in the past.
+    Do not scan or exploit services in hosts you control.
+    Do not scan the same network twice.
+    Do not exfiltrate the same data twice.
+    Exploit services that you know and find data in all controlled hosts.
+    Once you have known data exfiltrate them to the target one by one.
+
+action_examples:
+  ScanNetwork: |
+    You have chosen to scan a network.
+    Action: {"action":"ScanNetwork", "parameters": {"target_network": "10.0.2.0/24", "source_host": "10.0.1.5"}}
+  FindServices: |
+    You have chosen to find services.
+    Action: {"action":"ScanServices", "parameters":{"target_host":"10.0.2.8", "source_host": "10.0.2.12"}}
+  ExploitService: |
+    You have chosen to exploit a service.
+    Action: {"action":"ExploitService", "parameters":{"target_host":"192.168.1.20", "target_service":"httpd", "source_host": "10.0.2.12"}}
+  FindData: |
+    You have chosen to find data.
+    Action: {"action":"FindData", "parameters":{"target_host":"10.0.2.12", "source_host": "10.0.2.12"}}
+  ExfiltrateData: |
+    You have chosen to exfiltrate data.
+    Action: {"action":"ExfiltrateData", "parameters": {"target_host": "10.0.1.5", "data": {"owner":"User", "id":"Credentials"}, "source_host": "10.0.2.12"}}
+
+questions:
+  - id: Q0
+    text: |
+      You are a meticulous rule-checking machine. Your task is to determine the number of valid targets for the '{action_type}' action, based ONLY on the 'Critical Rules & Constraints' and the 'Current status' provided previously.
+
+      Count the number of valid targets by applying this specific rule:
+      {specific_rule}
+
+      Your response MUST be a single integer. ONLY a number. Do not add any words, explanations, or symbols.
+
+      How many valid targets for '{action_type}' exist?
+    rules:
+      ScanNetwork: "- **ScanNetwork**: Count the number of networks in `known_networks`."
+      FindServices: "- **FindServices**: Count the number of hosts in `known_hosts` that are NOT also in `controlled_hosts`."
+      ExploitService: "- **ExploitService**: Count the number of services listed in `known_services` that are on hosts you do NOT control. Known services are none means 0"
+      FindData: "- **FindData**: Count the number of hosts in `controlled_hosts`."
+      ExfiltrateData: "- **ExfiltrateData**: Count the number of data items in `known_data`. None is not a data item. Known data are none means 0"
+
+  - id: Q1
+    text: |
+      My goal is to perform a '{action_type}' action.
+      Based on the Strategic Approach and the current status, formulate a brief, one-sentence tactical plan.
+      Example: "My plan is to scan the 10.51.182.0/24 network from host 10.51.183.38 to find new hosts."
+
+  - id: Q2
+    text: |
+      Based on your tactical plan and the action examples, provide the single best '{action_type}' action.
+      You MUST ONLY use parameters that are explicitly listed in the current status.
+      Your entire response MUST be a single, complete JSON object. Do not add any other text.
+      Action:
