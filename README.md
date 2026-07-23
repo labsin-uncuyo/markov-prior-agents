@@ -13,6 +13,28 @@ The central idea is simple: learn a compact transition model over attack action 
 
 This repository contains experiment code and artifacts. The LaTeX manuscript is maintained separately.
 
+## Reproducibility artifacts
+
+This repository includes raw/preprocessed experiment outputs, derived CSV summaries, generated figures, and analysis scripts used to support the manuscript results.
+
+Key locations:
+
+- `data/raw/markov_chain/`: preprocessed Markov-chain results for the full, three-network, and defender scenarios.
+- `data/raw/llm/`: baseline and Markov-guided LLM/ReAct episode outputs, including the revised 150-episode evaluation and the earlier 30-episode exploratory run.
+- `data/processed/`: CSV summaries derived from the raw artifacts.
+- `figures/`: generated figures from the analysis workflow, organized by experiment family and LLM dataset size.
+- `scripts/analysis/`: scripts for regenerating processed summaries.
+- `data/MANIFEST.md`: file-level description of the data artifacts.
+- `REPRODUCIBILITY.md`: mapping from manuscript tables/figures to raw inputs, scripts, and processed outputs.
+
+To regenerate the processed summaries from the repository root:
+
+```bash
+python3 scripts/analysis/markov_chain/summarize_markov_chain_results.py
+python3 scripts/analysis/llm/summarize_llm_results.py --dataset 150_episodes
+Rscript scripts/analysis/llm/plot_llm_action_outcomes.R 150_episodes
+```
+
 ## Relationship with NetSecGame and NetSecGameAgents
 
 These agents run against the [NetSecGame](https://github.com/stratosphereips/NetSecGame) environment and reuse the agent interface from Diego Forni's NetSecGameAgents repository:

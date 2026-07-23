@@ -1,0 +1,7 @@
+dataset,agent,category,count,pct
+150_episodes,LLM Baseline,Invalid,3105,20.7
+150_episodes,LLM Baseline,Redundant,11831,78.87333333333333
+150_episodes,LLM Baseline,Effective,64,0.4266666666666667
+150_episodes,LLM-MC,Invalid,6095,43.43643101482326
+150_episodes,LLM-MC,Redundant,7153,50.97633979475484
+150_episodes,LLM-MC,Effective,784,5.587229190421892

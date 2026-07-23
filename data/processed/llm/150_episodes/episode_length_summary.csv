@@ -1,0 +1,301 @@
+agent,episode,actions_including_terminal,manuscript_steps,end_reason,success
+LLM Baseline,1,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,2,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,3,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,4,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,5,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,6,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,7,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,8,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,9,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,10,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,11,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,12,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,13,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,14,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,15,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,16,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,17,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,18,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,19,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,20,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,21,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,22,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,23,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,24,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,25,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,26,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,27,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,28,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,29,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,30,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,31,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,32,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,33,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,34,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,35,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,36,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,37,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,38,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,39,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,40,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,41,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,42,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,43,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,44,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,45,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,46,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,47,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,48,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,49,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,50,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,51,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,52,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,53,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,54,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,55,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,56,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,57,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,58,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,59,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,60,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,61,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,62,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,63,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,64,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,65,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,66,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,67,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,68,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,69,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,70,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,71,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,72,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,73,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,74,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,75,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,76,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,77,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,78,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,79,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,80,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,81,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,82,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,83,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,84,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,85,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,86,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,87,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,88,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,89,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,90,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,91,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,92,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,93,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,94,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,95,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,96,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,97,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,98,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,99,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,100,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,101,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,102,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,103,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,104,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,105,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,106,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,107,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,108,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,109,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,110,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,111,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,112,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,113,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,114,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,115,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,116,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,117,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,118,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,119,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,120,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,121,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,122,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,123,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,124,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,125,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,126,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,127,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,128,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,129,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,130,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,131,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,132,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,133,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,134,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,135,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,136,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,137,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,138,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,139,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,140,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,141,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,142,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,143,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,144,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,145,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,146,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,147,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,148,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,149,100,100,AgentStatus.TimeoutReached,False
+LLM Baseline,150,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,1,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,2,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,3,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,4,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,5,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,6,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,7,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,8,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,9,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,10,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,11,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,12,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,13,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,14,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,15,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,16,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,17,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,18,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,19,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,20,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,21,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,22,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,23,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,24,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,25,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,26,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,27,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,28,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,29,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,30,44,43,AgentStatus.Success,True
+LLM-MC,31,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,32,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,33,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,34,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,35,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,36,59,58,AgentStatus.Success,True
+LLM-MC,37,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,38,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,39,30,29,AgentStatus.Success,True
+LLM-MC,40,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,41,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,42,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,43,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,44,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,45,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,46,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,47,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,48,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,49,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,50,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,51,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,52,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,53,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,54,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,55,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,56,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,57,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,58,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,59,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,60,62,61,AgentStatus.Success,True
+LLM-MC,61,31,30,AgentStatus.Success,True
+LLM-MC,62,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,63,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,64,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,65,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,66,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,67,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,68,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,69,73,72,AgentStatus.Success,True
+LLM-MC,70,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,71,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,72,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,73,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,74,9,8,AgentStatus.Success,True
+LLM-MC,75,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,76,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,77,63,62,AgentStatus.Success,True
+LLM-MC,78,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,79,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,80,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,81,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,82,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,83,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,84,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,85,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,86,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,87,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,88,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,89,25,24,AgentStatus.Success,True
+LLM-MC,90,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,91,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,92,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,93,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,94,31,30,AgentStatus.Success,True
+LLM-MC,95,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,96,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,97,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,98,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,99,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,100,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,101,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,102,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,103,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,104,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,105,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,106,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,107,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,108,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,109,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,110,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,111,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,112,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,113,78,77,AgentStatus.Success,True
+LLM-MC,114,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,115,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,116,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,117,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,118,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,119,56,55,AgentStatus.Success,True
+LLM-MC,120,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,121,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,122,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,123,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,124,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,125,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,126,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,127,78,77,AgentStatus.Success,True
+LLM-MC,128,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,129,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,130,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,131,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,132,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,133,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,134,19,18,AgentStatus.Success,True
+LLM-MC,135,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,136,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,137,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,138,38,37,AgentStatus.Success,True
+LLM-MC,139,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,140,8,7,AgentStatus.Success,True
+LLM-MC,141,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,142,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,143,28,27,AgentStatus.Success,True
+LLM-MC,144,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,145,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,146,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,147,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,148,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,149,100,100,AgentStatus.TimeoutReached,False
+LLM-MC,150,100,100,AgentStatus.TimeoutReached,False

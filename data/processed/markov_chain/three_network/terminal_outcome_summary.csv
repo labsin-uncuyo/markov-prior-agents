@@ -1,0 +1,25 @@
+scenario,panel,agent,category,count,pct
+three_network,ALL,Genetic Agent,Success,154,0.2053333333333333
+three_network,ALL,Genetic Agent,Timeout/No goal,74846,99.79466666666667
+three_network,ALL,Genetic Agent,Detected,0,0.0
+three_network,BEPR,Genetic Agent,Success,30,100.0
+three_network,BEPR,Genetic Agent,Timeout/No goal,0,0.0
+three_network,BEPR,Genetic Agent,Detected,0,0.0
+three_network,ALL,Random Agent,Success,86,0.11466666666666667
+three_network,ALL,Random Agent,Timeout/No goal,74914,99.88533333333334
+three_network,ALL,Random Agent,Detected,0,0.0
+three_network,BEPR,Random Agent,Success,30,100.0
+three_network,BEPR,Random Agent,Timeout/No goal,0,0.0
+three_network,BEPR,Random Agent,Detected,0,0.0
+three_network,ALL,GPT-4o Agent,Success,0,0.0
+three_network,ALL,GPT-4o Agent,Timeout/No goal,75000,100.0
+three_network,ALL,GPT-4o Agent,Detected,0,0.0
+three_network,BEPR,GPT-4o Agent,Success,0,0.0
+three_network,BEPR,GPT-4o Agent,Timeout/No goal,30,100.0
+three_network,BEPR,GPT-4o Agent,Detected,0,0.0
+three_network,ALL,Expert Defined (GPT o3-mini),Success,6,0.008
+three_network,ALL,Expert Defined (GPT o3-mini),Timeout/No goal,74994,99.992
+three_network,ALL,Expert Defined (GPT o3-mini),Detected,0,0.0
+three_network,BEPR,Expert Defined (GPT o3-mini),Success,5,16.666666666666664
+three_network,BEPR,Expert Defined (GPT o3-mini),Timeout/No goal,25,83.33333333333334
+three_network,BEPR,Expert Defined (GPT o3-mini),Detected,0,0.0

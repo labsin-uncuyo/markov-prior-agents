@@ -1,0 +1,25 @@
+scenario,panel,agent,category,count,pct
+defender,ALL,Genetic Agent,Success,1388,1.8506666666666667
+defender,ALL,Genetic Agent,Timeout/No goal,274,0.36533333333333334
+defender,ALL,Genetic Agent,Detected,73338,97.784
+defender,BEPR,Genetic Agent,Success,30,100.0
+defender,BEPR,Genetic Agent,Timeout/No goal,0,0.0
+defender,BEPR,Genetic Agent,Detected,0,0.0
+defender,ALL,Random Agent,Success,641,0.8546666666666666
+defender,ALL,Random Agent,Timeout/No goal,255,0.33999999999999997
+defender,ALL,Random Agent,Detected,74104,98.80533333333334
+defender,BEPR,Random Agent,Success,30,100.0
+defender,BEPR,Random Agent,Timeout/No goal,0,0.0
+defender,BEPR,Random Agent,Detected,0,0.0
+defender,ALL,GPT-4o Agent,Success,2942,3.9226666666666667
+defender,ALL,GPT-4o Agent,Timeout/No goal,401,0.5346666666666666
+defender,ALL,GPT-4o Agent,Detected,71657,95.54266666666666
+defender,BEPR,GPT-4o Agent,Success,30,100.0
+defender,BEPR,GPT-4o Agent,Timeout/No goal,0,0.0
+defender,BEPR,GPT-4o Agent,Detected,0,0.0
+defender,ALL,Expert Defined (GPT o3-mini),Success,2450,3.266666666666666
+defender,ALL,Expert Defined (GPT o3-mini),Timeout/No goal,853,1.1373333333333333
+defender,ALL,Expert Defined (GPT o3-mini),Detected,71697,95.596
+defender,BEPR,Expert Defined (GPT o3-mini),Success,30,100.0
+defender,BEPR,Expert Defined (GPT o3-mini),Timeout/No goal,0,0.0
+defender,BEPR,Expert Defined (GPT o3-mini),Detected,0,0.0

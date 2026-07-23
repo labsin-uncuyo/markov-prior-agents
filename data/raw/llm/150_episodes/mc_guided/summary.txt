@@ -1,0 +1,55 @@
+================================================================================
+ exec_150_mc  —  MC + LLM attacker (gemma3:4b), 150 test episodes
+================================================================================
+Host       : joker (200.12.137.13)
+Completed  : 2026-07-15 12:11 UTC (from output-file mtime)
+Agent      : NetSecGameAgents/agents/attackers/mc_llm_qa/mc_llm_agent_qa.py
+Model      : gemma3:4b  (ollama, http://127.0.0.1:11434/v1/)
+Game port  : 9001
+Episodes   : 150   (mlflow disabled)
+Planner    : MC-guided (transition_probabilities.json) + LLM ReAct (2-stage)
+Data files : episode_data.json  = 150 episodes [episode,state,prompt,response,
+                                           evaluation,end_reason] (verified)
+             llm_react.log     = full ReAct + httpx trace (~199 MB)
+
+Command run:
+  cd /HDD/diegoforni/gemma3_run && \
+  python .../NSEGameCoordinator.py -c .../netsecenv_conf.yaml -gp 9001 & \
+  python .../mc_llm_agent_qa.py --llm gemma3:4b --port 9001 \
+        --api_url http://127.0.0.1:11434/v1/ --test_episodes 150 --disable_mlflow
+
+NOTE: shell precedence made `&` background the whole `cd && coord`, so the
+      agent ran in ~ (home) and wrote its outputs to /home/diegoforni/.
+      They have been moved into this bundle and off the 100%-full root disk.
+
+================================================================================
+ FINAL RESULTS (150 episodes)
+================================================================================
+Final test after 150 episodes
+        Wins=17,
+        Detections=0,
+        Max Steps Reached=133,
+        winrate=11.333%,
+        detection_rate=0.000%,
+        max_steps_rate=88.667%,
+        average_returns=-80.047 +- 55.936,
+        average_episode_steps=93.433 +- 19.854,
+        average_win_steps=42.059 +- 22.393,
+        average_detected_steps=0.000 +- 0.000,
+        average_repeated_steps=43.487 += 17.196,
+        Total Tokens Used: 53607833
+================================================================================
+
+================================================================================
+ TIMING (parsed from llm_react.log HH:MM:SS timestamps)
+================================================================================
+Total wall-clock      : 12h 27m 39s  (2026-07-14 23:44:06 -> 2026-07-15 12:11:45)
+Episodes timed        : 150
+Mean / episode        : 4m 59s  (299.1s)   median 5m 14s   stdev 64.2s
+Min / max episode     : 0m 24s  /  6m 33s
+  wins (17)           : 2m 17s avg  (end early, ~42 steps)
+  timeouts (133)      : 5m 20s avg  (full 100 steps)
+Mean wall-clock / step: 3207 ms  (median 3170 ms)  -- 2 ollama calls/step
+Total steps run       : 14,015
+Inter-episode overhead: ~0s (reset within same second)
+================================================================================

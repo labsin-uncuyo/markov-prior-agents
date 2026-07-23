@@ -1,0 +1,25 @@
+panel,display_file,category,count,pct
+ALL,Genetic Agent,Good,1163161,16.825388789159177
+ALL,Genetic Agent,Boring,5749969,83.17461121084082
+ALL,Genetic Agent,Detected,0,0.0
+BEPR,Genetic Agent,Good,802,28.41956059532247
+BEPR,Genetic Agent,Boring,2020,71.58043940467753
+BEPR,Genetic Agent,Detected,0,0.0
+ALL,Random Agent,Good,1196966,16.625853227743434
+ALL,Random Agent,Boring,6002460,83.37414677225657
+ALL,Random Agent,Detected,0,0.0
+BEPR,Random Agent,Good,756,27.40123233055455
+BEPR,Random Agent,Boring,2003,72.59876766944545
+BEPR,Random Agent,Detected,0,0.0
+ALL,GPT4o Agent,Good,781314,11.62013243709357
+ALL,GPT4o Agent,Boring,5942482,88.37986756290644
+ALL,GPT4o Agent,Detected,0,0.0
+BEPR,GPT4o Agent,Good,736,27.158671586715865
+BEPR,GPT4o Agent,Boring,1974,72.84132841328413
+BEPR,GPT4o Agent,Detected,0,0.0
+ALL,Expert Defined (GPT o3-mini),Good,491836,6.971128769633389
+ALL,Expert Defined (GPT o3-mini),Boring,6563492,93.0288712303666
+ALL,Expert Defined (GPT o3-mini),Detected,0,0.0
+BEPR,Expert Defined (GPT o3-mini),Good,652,25.883287018658198
+BEPR,Expert Defined (GPT o3-mini),Boring,1867,74.1167129813418
+BEPR,Expert Defined (GPT o3-mini),Detected,0,0.0

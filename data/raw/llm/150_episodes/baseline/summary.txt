@@ -1,0 +1,38 @@
+================================================================================
+ exec_150_baseline  —  No-MC baseline LLM attacker (gemma3:4b), 150 episodes
+================================================================================
+Host       : joker (200.12.137.13)
+Completed  : 2026-07-16 13:04:53
+Agent      : NetSecGameAgents/agents/attackers/mc_llm_qa_baseline/llm_agent_qa.py
+Model      : gemma3:4b  (ollama, http://127.0.0.1:11434/v1/)
+Game port  : 9001
+Episodes   : 150   (mlflow disabled)
+Planner    : plain LLMActionPlanner (NO Markov chain)
+Data files : episode_data.json, llm_react.log, NSG_coordinator.log
+
+================================================================================
+ FINAL RESULTS (150 episodes)
+================================================================================
+Final test after 150 episodes
+        Wins=0,
+        Detections=0,
+        winrate=0.000%,
+        detection_rate=0.000%,
+        max_steps_rate=100.000%,
+        average_returns=-100.000 +- 0.000,
+        average_episode_steps=100.000 +- 0.000,
+        average_win_steps=0.000 +- 0.000,
+        average_detected_steps=0.000 +- 0.000,
+        average_repeated_steps=77.600 += 29.180
+        (total tokens: not tracked by baseline code)
+
+================================================================================
+ TIMING (parsed from llm_react.log)
+================================================================================
+Total wall-clock      : 21h 00m 20s  (2026-07-15 16:04:32 -> 2026-07-16 13:04:52)
+Episodes timed        : 150
+Mean / episode        : 8m 24s (504.1s)   median 8m 25s   sd 4.3s
+Min / max episode     : 8m 11s  /  8m 45s
+Mean wall-clock / step: 5041 ms  (median 5050 ms)
+LLM calls             : 105,000  (~700/ep, ~7.0/step)
+================================================================================

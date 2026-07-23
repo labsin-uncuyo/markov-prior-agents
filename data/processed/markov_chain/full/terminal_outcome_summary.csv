@@ -1,0 +1,25 @@
+scenario,panel,agent,category,count,pct
+full,ALL,Genetic Agent,Success,16913,22.550666666666665
+full,ALL,Genetic Agent,Timeout/No goal,58087,77.44933333333334
+full,ALL,Genetic Agent,Detected,0,0.0
+full,BEPR,Genetic Agent,Success,30,100.0
+full,BEPR,Genetic Agent,Timeout/No goal,0,0.0
+full,BEPR,Genetic Agent,Detected,0,0.0
+full,ALL,Random Agent,Success,9595,12.793333333333335
+full,ALL,Random Agent,Timeout/No goal,65405,87.20666666666666
+full,ALL,Random Agent,Detected,0,0.0
+full,BEPR,Random Agent,Success,30,100.0
+full,BEPR,Random Agent,Timeout/No goal,0,0.0
+full,BEPR,Random Agent,Detected,0,0.0
+full,ALL,GPT-4o Agent,Success,16473,21.964
+full,ALL,GPT-4o Agent,Timeout/No goal,58527,78.036
+full,ALL,GPT-4o Agent,Detected,0,0.0
+full,BEPR,GPT-4o Agent,Success,30,100.0
+full,BEPR,GPT-4o Agent,Timeout/No goal,0,0.0
+full,BEPR,GPT-4o Agent,Detected,0,0.0
+full,ALL,Expert Defined (GPT o3-mini),Success,8305,11.073333333333334
+full,ALL,Expert Defined (GPT o3-mini),Timeout/No goal,66695,88.92666666666666
+full,ALL,Expert Defined (GPT o3-mini),Detected,0,0.0
+full,BEPR,Expert Defined (GPT o3-mini),Success,30,100.0
+full,BEPR,Expert Defined (GPT o3-mini),Timeout/No goal,0,0.0
+full,BEPR,Expert Defined (GPT o3-mini),Detected,0,0.0

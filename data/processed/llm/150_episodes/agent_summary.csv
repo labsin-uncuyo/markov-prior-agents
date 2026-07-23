@@ -1,0 +1,3 @@
+dataset,agent,episodes,success_count,success_pct,actions_including_terminal_mean,actions_including_terminal_sd,manuscript_steps_mean,manuscript_steps_sd,win_actions_including_terminal_mean,win_actions_including_terminal_sd,win_manuscript_steps_mean,win_manuscript_steps_sd,total_actions_including_terminal,total_manuscript_steps
+150_episodes,LLM Baseline,150,0,0.0,100,0.0,100,0.0,0.0,0.0,0.0,0.0,15000,15000
+150_episodes,LLM-MC,150,17,11.333333333333332,93.54666666666667,19.56138599952013,93.43333333333334,19.85427465867797,43.05882352941177,22.393461724969672,42.05882352941177,22.393461724969672,14032,14015

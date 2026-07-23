@@ -1,0 +1,25 @@
+scenario,panel,agent,category,count,pct
+full,ALL,Genetic Agent,Effective,1163161,16.825388789159177
+full,ALL,Genetic Agent,Redundant,5691882,82.33436952581536
+full,ALL,Genetic Agent,Bad,58087,0.8402416850254515
+full,BEPR,Genetic Agent,Effective,191,68.45878136200717
+full,BEPR,Genetic Agent,Redundant,88,31.54121863799283
+full,BEPR,Genetic Agent,Bad,0,0.0
+full,ALL,Random Agent,Effective,1196966,16.625853227743434
+full,ALL,Random Agent,Redundant,5937055,82.46567156881673
+full,ALL,Random Agent,Bad,65405,0.9084752034398298
+full,BEPR,Random Agent,Effective,220,52.25653206650831
+full,BEPR,Random Agent,Redundant,201,47.74346793349169
+full,BEPR,Random Agent,Bad,0,0.0
+full,ALL,GPT-4o Agent,Effective,781314,11.62013243709357
+full,ALL,GPT-4o Agent,Redundant,5883955,87.50942176115991
+full,ALL,GPT-4o Agent,Bad,58527,0.8704458017465133
+full,BEPR,GPT-4o Agent,Effective,158,90.28571428571428
+full,BEPR,GPT-4o Agent,Redundant,17,9.714285714285714
+full,BEPR,GPT-4o Agent,Bad,0,0.0
+full,ALL,Expert Defined (GPT o3-mini),Effective,491836,6.971128769633389
+full,ALL,Expert Defined (GPT o3-mini),Redundant,6496797,92.08355727756386
+full,ALL,Expert Defined (GPT o3-mini),Bad,66695,0.9453139528027612
+full,BEPR,Expert Defined (GPT o3-mini),Effective,151,96.17834394904459
+full,BEPR,Expert Defined (GPT o3-mini),Redundant,6,3.821656050955414
+full,BEPR,Expert Defined (GPT o3-mini),Bad,0,0.0

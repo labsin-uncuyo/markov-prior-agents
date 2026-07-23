@@ -1,0 +1,25 @@
+scenario,panel,agent,category,count,pct
+defender,ALL,Genetic Agent,Effective,356987,21.867905688925372
+defender,ALL,Genetic Agent,Redundant,1201871,73.62285371247252
+defender,ALL,Genetic Agent,Bad,73612,4.509240598602118
+defender,BEPR,Genetic Agent,Effective,187,61.71617161716172
+defender,BEPR,Genetic Agent,Redundant,116,38.28382838283829
+defender,BEPR,Genetic Agent,Bad,0,0.0
+defender,ALL,Random Agent,Effective,362333,21.991002899901797
+defender,ALL,Random Agent,Redundant,1210950,73.49594147272283
+defender,ALL,Random Agent,Bad,74359,4.513055627375364
+defender,BEPR,Random Agent,Effective,206,47.57505773672055
+defender,BEPR,Random Agent,Redundant,227,52.42494226327945
+defender,BEPR,Random Agent,Bad,0,0.0
+defender,ALL,GPT-4o Agent,Effective,324484,19.909009194182232
+defender,ALL,GPT-4o Agent,Redundant,1233293,75.66980706635947
+defender,ALL,GPT-4o Agent,Bad,72058,4.4211837394582885
+defender,BEPR,GPT-4o Agent,Effective,161,82.9896907216495
+defender,BEPR,GPT-4o Agent,Redundant,33,17.010309278350515
+defender,BEPR,GPT-4o Agent,Bad,0,0.0
+defender,ALL,Expert Defined (GPT o3-mini),Effective,267136,14.453213553566801
+defender,ALL,Expert Defined (GPT o3-mini),Redundant,1508595,81.62151750734871
+defender,ALL,Expert Defined (GPT o3-mini),Bad,72550,3.9252689390844786
+defender,BEPR,Expert Defined (GPT o3-mini),Effective,150,95.54140127388536
+defender,BEPR,Expert Defined (GPT o3-mini),Redundant,7,4.45859872611465
+defender,BEPR,Expert Defined (GPT o3-mini),Bad,0,0.0

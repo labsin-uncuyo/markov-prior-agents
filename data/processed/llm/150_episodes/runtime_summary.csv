@@ -1,0 +1,3 @@
+dataset,agent,wall_clock_seconds,wall_clock_hours,llm_calls_from_log,total_manuscript_steps,seconds_per_episode,seconds_per_step,llm_calls_per_step
+150_episodes,LLM Baseline,75620,21.005555555555556,105000,15000,504.1333333333333,5.041333333333333,7.0
+150_episodes,LLM-MC,44859,12.460833333333333,46008,14015,299.06,3.200784873349982,3.2827684623617555
